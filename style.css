@@ -1,0 +1,34 @@
+:root { --blue: #3b5bdb; --ink: rgba(0,0,0,.9); --mute: rgba(0,0,0,.6); --line: #e8e6e3; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.45 -apple-system, system-ui, sans-serif; color: var(--ink); background: #f4f2ee; }
+a { color: inherit; text-decoration: none; }
+.bar { position: sticky; top: 0; display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: #fff; border-bottom: 1px solid var(--line); }
+.brand { width: 34px; height: 34px; border-radius: 6px; background: var(--blue); color: #fff; font-weight: 800; display: grid; place-items: center; font-size: 18px; }
+
+.back { font-size: 34px; line-height: 1; color: var(--mute); width: 34px; text-align: center; }
+.search { flex: 1; background: #edf3f8; border-radius: 6px; padding: 7px 12px; color: var(--mute); font-size: 15px; }
+.dots { color: var(--mute); font-size: 22px; }
+main { max-width: 640px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 20px; margin: 4px 0 2px; }
+.sub, .muted { color: var(--mute); font-size: 14px; margin: 0; }
+.feed { list-style: none; padding: 0; margin: 14px 0; background: #fff; border-radius: 10px; overflow: hidden; }
+.feed li + li { border-top: 1px solid var(--line); }
+.feed a { display: flex; gap: 12px; padding: 14px; }
+.logo { flex: none; width: 48px; height: 48px; border-radius: 6px; color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 20px; }
+.logo.big { width: 64px; height: 64px; font-size: 26px; }
+.txt { display: flex; flex-direction: column; font-size: 14px; }
+.txt b { color: var(--blue); font-size: 16px; }
+.promo { color: #057642; font-size: 13px; margin-top: 4px; }
+.post { background: #fff; border-radius: 10px; margin-top: 12px; }
+.post h1 { font-size: 24px; line-height: 1.2; }
+.co { margin: 12px 0 0; font-size: 15px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0; }
+.tags span { background: #e8f3e8; color: #1c5f2b; border-radius: 4px; padding: 3px 8px; font-size: 13px; font-weight: 600; }
+.btns { display: flex; gap: 8px; }
+.btns a { border-radius: 999px; padding: 8px 20px; font-weight: 600; }
+.apply { background: var(--blue); color: #fff; }
+.save { color: var(--blue); box-shadow: inset 0 0 0 1px var(--blue); }
+section { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 6px; }
+h2 { font-size: 19px; } h3 { font-size: 16px; margin: 18px 0 4px; }
+ul { padding-left: 20px; margin: 0; } li { margin: 4px 0; }
+.foot { color: var(--mute); font-size: 12px; text-align: center; margin: 24px 0 8px; }
